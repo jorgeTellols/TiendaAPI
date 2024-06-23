@@ -1,6 +1,6 @@
 # API de Academia/Tienda músical.
 
-"Back" de un sitio web pensado para ser una academia de música y a la vez tienda de instrumentos. Más abajo he dejado un poco de documentación al respecto.
+"Back" de un sitio web pensado para ser una academia de música y a la vez tienda de instrumentos. La API tiene las dependencias para usar swagger, así que genera documentación sobre todos sus endpoints al ser lanzada. El unico requisito para su correcto lanzamiento es definir una database vacia en un servidor postgreSQL llamada "academiaModoFrigio", una vez creada manualmente la creación/actualización de las tablas se producirá siempre que se lanze el proyecto
 
 Esta API fue la parte "Back" de mi TFG y he decidido subirla para dejar constancia de ella ya que, a diferencia de la parte "Front", estuve satisfecho con el resultado. La API genera una base de datos y prepara los endpoints para ser consumida por otra aplicación.  
 
@@ -16,4 +16,12 @@ Esta API fue la parte "Back" de mi TFG y he decidido subirla para dejar constanc
 
 - Code First
 - Arquitectura Clean
-- APIRESTful  
+- APIRESTful
+
+## Esquema relacional de la base de datos
+
+<br>
+<p align="center">
+  <img align="center" src="./src/assets/Esquema ER.png"/>
+</p>
+
