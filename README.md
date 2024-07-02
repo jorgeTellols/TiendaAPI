@@ -1,10 +1,11 @@
-# API de Academia/Tienda músical.
+# Music Academy/Shop API.
 
-"Back" de un sitio web pensado para ser una academia de música y a la vez tienda de instrumentos. Puede efectuar una par de operaciones CRUD básicas y estaba preparada para añadir futuras funcionalidades, pero no llegé a crearlas por falta de tiempo. La API tiene las dependencias para usar swagger, así que genera documentación sobre todos sus endpoints al ser lanzada. El unico requisito para su correcto lanzamiento es definir una database vacia en un servidor postgreSQL llamada "academiaModoFrigio", una vez creada manualmente la creación/actualización de las tablas se producirá siempre que se lanze el proyecto
+"Back" of a website designed to be a music academy and at the same time an instrument store. It can perform a couple of basic CRUD operations and was ready to add future features, but I didn't get to create them due to lack of time. The API has the dependencies to use swagger, so it generates documentation on all its endpoints when launched. The only requirement for its correct launch is to define an empty database in a postgreSQL server called "academiaModoFrigio", once created manually the creation/update of the tables will occur whenever the project is launched.
 
-Esta API fue la parte "Back" de mi TFG y he decidido subirla para dejar constancia de ella ya que, a diferencia de la parte "Front", estuve satisfecho con el resultado. La API genera una base de datos y prepara los endpoints para ser consumida por otra aplicación.  
+This API was the "Back" part of my TFG (The final project of my degree) and I have decided to upload it to record it because, unlike the "Front" part, I was satisfied with the result. The API generates a database and prepares the endpoints to be consumed by another application.
+ 
 
-## Tecnologias utilizadas
+## Technologies used
 
 - JAVA
 - SpringBoot
@@ -12,13 +13,13 @@ Esta API fue la parte "Back" de mi TFG y he decidido subirla para dejar constanc
 - MapStruct
 - PostgreSQL
 
-## Principios/Metodologías seguidos
+## Methodologies followed
 
 - Code First
-- Arquitectura Clean
+- Clean Architecture
 - APIRESTful
 
-## Esquema relacional de la base de datos
+## Relational Database Schema (In spanish)
 
 <br>
 <p align="center">
